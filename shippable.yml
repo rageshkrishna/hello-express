@@ -3,3 +3,7 @@ node_js:
  - 0.10
 install: npm install
 script: true
+notifications:
+  email:
+    on_success: always
+    on_failure: always
