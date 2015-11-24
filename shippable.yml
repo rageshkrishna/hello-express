@@ -1,8 +1,11 @@
 language: node_js
 node_js:
  - 0.10
+env:
+ - secure: FqlGdzRqZhe4U+n0R7YhYJtJXPFQY2UiURf8DAeccs1LIEzboHav1ZgqWAzNblA8v3VJd03DpiQVXFwuEzOE/iXFxV2VpIZ4dJ4g/Ek0ztT51hHbPkFiKlNy+bo4qZ3u3BpsgM/ky3hMXbXFxUzvWYiCHKSAEbcyOns6oZuiXB7sDhI8c/egNGFDDnXBvho4lpgzGKKUvQp2tM7gXavhMjZtNp/mmPPM+IGxgJK9JGJFatfgJhNLUkjnVPBNlPxjdc1aY6FPDVDe4Kxbq7TzMKNnVgkXf4Yivte7FHy3ik8L/NxmpriVnCSKBxjb70HGjogwF301do+ldfz23j76lg==
 install: npm install
-script: true
+script: 
+ - echo The secret words are $SECRET_WORDS
 notifications:
  email:
   recipients:
